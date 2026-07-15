@@ -10,9 +10,9 @@ Data sources:
 
 Usage:
     python 01_prepare_data.py \
-        --afr_dir  "/home/cognitivo/Downloads/Jasonl format DataSets/AFR Jasonl" \
-        --asx_dir  "/home/cognitivo/Downloads/Jasonl format DataSets/ASX-18-companies-2015-2021-Jasonl" \
-        --rba_file "/home/cognitivo/Downloads/Jasonl format DataSets/RBA-Rates-2010-2026/RBA-rates.jsonl" \
+        --afr_dir  "/home/cognitivo/Desktop/HackathonDataset/Jsonl format DataSets/AFR Jasonl" \
+        --asx_dir  "/home/cognitivo/Desktop/HackathonDataset/Jsonl format DataSets/ASX-18-companies-2015-2021-Jasonl" \
+        --rba_file "/home/cognitivo/Desktop/HackathonDataset/Jsonl format DataSets/RBA-Rates-2010-2026/RBA-rates.jsonl" \
         --out_dir  /home/cognitivo/deploy/hackathon-finagent/data
 """
 
@@ -269,9 +269,9 @@ def portfolio_sample(prices, rates, date):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--afr_dir",  default="/home/cognitivo/Downloads/Jasonl format DataSets/AFR Jasonl")
-    parser.add_argument("--asx_dir",  default="/home/cognitivo/Downloads/Jasonl format DataSets/ASX-18-companies-2015-2021-Jasonl")
-    parser.add_argument("--rba_file", default="/home/cognitivo/Downloads/Jasonl format DataSets/RBA-Rates-2010-2026/RBA-rates.jsonl")
+    parser.add_argument("--afr_dir",  default="/home/cognitivo/Desktop/HackathonDataset/Jsonl format DataSets/AFR Jasonl")
+    parser.add_argument("--asx_dir",  default="/home/cognitivo/Desktop/HackathonDataset/Jsonl format DataSets/ASX-18-companies-2015-2021-Jasonl")
+    parser.add_argument("--rba_file", default="/home/cognitivo/Desktop/HackathonDataset/Jsonl format DataSets/RBA-Rates-2010-2026/RBA-rates.jsonl")
     parser.add_argument("--out_dir",  default="/home/cognitivo/deploy/hackathon-finagent/data")
     parser.add_argument("--max_samples", type=int, default=60000)
     parser.add_argument("--seed", type=int, default=42)
