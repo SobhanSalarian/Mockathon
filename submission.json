@@ -5,13 +5,13 @@
   "github_url": "https://github.com/SobhanSalarian/Mockathon",
   "commit_sha": "2de47cb40dcad30d23ab44d983c56d13fa6c6747",
   "agent": {
-    "endpoint": "http://10.0.1.10:5000",
+    "endpoint": "http://172.20.122.62:5000",
     "health_path": "/health",
     "query_path": "/query",
     "timeout_seconds": 300
   },
   "model": {
-    "endpoint": "http://10.0.1.10:4000/v1",
+    "endpoint": "http://172.20.122.62:4000/v1",
     "model_name": "domain-ft"
   }
 }
