@@ -3,7 +3,7 @@
   "team_id": "team-01",
   "team_name": "Team 01 — Agentic",
   "github_url": "https://github.com/sirasatinithyanand/cognitivo-mockathon-finagent",
-  "commit_sha": "86a456d600b127cb0714eef04e9521dd8cdbc9cc",
+  "commit_sha": "dd367a8fd4a1882d5f530f02f22002d41dbc4716",
   "agent": {
     "endpoint": "http://10.0.1.10:5000",
     "health_path": "/health",
